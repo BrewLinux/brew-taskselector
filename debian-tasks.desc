@@ -1,0 +1,105 @@
+Task: brew-dev
+Relevance: 1
+Description: BREW Development Tools
+ Development tools
+
+Task: brew-dev-java
+Relevance: 1
+Parent: brew-dev
+Description: Java Development Tools
+ Development tools for java
+Packages: brew-meta-dev-java
+
+Task: brew-dev-c
+Relevance: 2
+Parent: brew-dev
+Description: C / C++ Development Tools
+ Development tools for C and C++
+Packages: brew-meta-dev-c
+
+Task: brew-dev-python
+Relevance: 3
+Parent: brew-dev
+Description: Python Development Tools
+ Development tools for Python
+Packages: brew-meta-dev-python
+
+Task: brew-dev-mono
+Relevance: 4
+Parent: brew-dev
+Description: Mono Development Tools
+ Development tools for Mono
+Packages: brew-meta-dev-mono
+
+Task: brew-dev-html
+Relevance: 5
+Parent: brew-dev
+Description: HTML Development Tools
+ Development tools for HTML
+Packages: brew-meta-dev-web
+
+Task: brew-publish
+Relevance: 2
+Description: BREW Publishing Tools
+ Publishing tools
+
+Task: brew-pub-latex
+Relevance: 1
+Parent: brew-publish
+Description: Latex Publishing Tools
+ Development tools for Latex
+Packages: brew-meta-publish-latex
+
+Task: brew-pub-latex-full
+Relevance: 2
+Parent: brew-publish
+Description: Latex Publishing Tools German
+ Development tools for Latex in German
+Packages: brew-meta-publish-latex-de
+
+Task: brew-pub-diagram
+Relevance: 3
+Parent: brew-publish
+Description: Diagram tools
+ Diagram tools
+Packages: brew-meta-publish-latex-diagram
+
+Task: brew-pub-office
+Relevance: 4
+Parent: brew-publish
+Description: Office tools
+ Just libreoffice
+Packages: brew-meta-publish-office
+
+Task: brew-itsecurity
+Relevance: 3
+Description: BREW Tools for IT-Security lectures
+ IT-Security tools
+
+Task: brew-its-network
+Relevance: 1
+Parent: brew-itsecurity
+Description: Tools for network analysis
+ Some network analysis tools
+Packages: brew-meta-itsecurity-network
+
+Task: brew-its-forensic
+Relevance: 2
+Parent: brew-itsecurity
+Description: Tools for forensic issues in lectures
+ Some forensic tools
+Packages: brew-meta-itsecurity-forensics
+
+Task: brew-its-malware
+Relevance: 3
+Parent: brew-itsecurity
+Description: Tools for malware analysis in lectures
+ Some malware analysis tools
+Packages: brew-meta-itsecurity-malware
+
+Task: brew-its-pentest
+Relevance: 4
+Parent: brew-itsecurity
+Description: Tools for pentesting in lectures
+ Some pentesting tools
+Packages: brew-meta-itsecurity-pentest
